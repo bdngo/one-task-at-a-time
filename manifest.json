@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "One Task at a Time",
+    "version": "1.0",
+
+    "description": "Blocks a list of websites until tasks are accomplished",
+    "homepage_url": "https://github.com/bdngo/one-task-at-a-time",
+    "icons": {
+        "48": "icon.svg",
+        "96": "icon.svg"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "web_accessible_resources": [
+        "todo.json"
+    ]
+}
