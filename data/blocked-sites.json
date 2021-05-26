@@ -1,5 +1,7 @@
 {
     "blockedSites": [
-        "https://dev-hkn.eecs.berkeley.edu/"
+        "https://cs161.org/",
+        "http://127.0.0.1:5500/test.html",
+        "127.0.0.1:5500/test.html"
     ]
 }
