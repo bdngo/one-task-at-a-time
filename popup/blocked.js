@@ -65,10 +65,3 @@ async function handleCreated(_tabID, _changeID, tab) {
 browser.tabs.onCreated.addListener(() => {
     browser.tabs.onUpdated.addListener(handleCreated);
 });
-
-// async function blah() {
-//     const tasks = await fetchJSON(TODOS);
-//     displayTasks(tasks);
-// }
-
-// blah();
