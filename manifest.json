@@ -11,10 +11,15 @@
     },
 
     "permissions": [
-        "tabs"
+        "tabs",
+        "activeTab"
     ],
 
     "web_accessible_resources": [
-        "todo.json"
-    ]
+        "data/todo.json"
+    ],
+
+    "background": {
+        "scripts": ["popup/blocked.js"]
+    }
 }
